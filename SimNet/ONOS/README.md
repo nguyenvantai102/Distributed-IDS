@@ -2,7 +2,8 @@
 
 <h2 align="center">🛠 Install & Set up ONOS 🛠</h2>
 - Install Java 8
- ```
+
+```
 sudo apt install openjdk-8-jdk
 sudo su
 cat >> /etc/environment <<EOL
@@ -36,7 +37,7 @@ source $ONOS_ROOT/tools/dev/bash_profile
 
 <h2 align="center">🔥 Launching ONOS 🔥</h2>
 - Terminal
- ```
+```
 cd ~/onos
 onos-buck run onos-local
 ```
@@ -48,4 +49,4 @@ onos-buck run onos-local
 
 <h2 align="center">🌱 Result (with Mininet) 🌱</h2>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/67199007/178035158-acda1cc9-55db-4a17-ab07-68a0621228cf.png"></p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/67199007/178035309-ecfad6e4-022f-4673-b9cf-3f63ad535a20.png"></p>
