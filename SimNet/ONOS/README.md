@@ -22,7 +22,7 @@ sudo adduser sdn -–system –group
 sudo passwd sdn
 ```
 
-** NOTE: Set password to “rocks”**
+** NOTE: Set password to "rocks". **
 
 - Install ONOS (version 1.12)
 
@@ -49,7 +49,7 @@ onos-buck run onos-local
 
 - ONOS Browser
 
-  **http://localhost<ip-onos-vm>:8181/onos/ui**
+  **http://localhost:8181/onos/ui**
  
   username: onos
  
@@ -57,5 +57,4 @@ onos-buck run onos-local
 
 <h2 align="center">🌱 Result (with Mininet) 🌱</h2>
 
-
-<p align="center"> <img src="https://user-images.githubusercontent.com/67199007/178035669-807dbf66-bd47-4c8f-9ebb-027bfefebea0.png"></p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/67199007/178035825-5c02b63c-eb4f-45f7-a03f-fb6e0f20bd12.png"></p>
