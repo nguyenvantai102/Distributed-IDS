@@ -41,6 +41,7 @@ source $ONOS_ROOT/tools/dev/bash_profile
 ```
 
 <h2 align="center">🔥 Launching ONOS 🔥</h2>
+
 - Terminal
 
 ```
