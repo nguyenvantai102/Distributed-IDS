@@ -42,17 +42,20 @@ source $ONOS_ROOT/tools/dev/bash_profile
 
 <h2 align="center">🔥 Launching ONOS 🔥</h2>
 - Terminal
+
 ```
-cd ~/onos
+cd ~\onos
 onos-buck run onos-local
 ```
 
 - ONOS Browser
 
   **http://localhost:8181/onos/ui**
+  
   username: onos
+  
   passwork: rocks
 
 <h2 align="center">🌱 Result (with Mininet) 🌱</h2>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/67199007/178036186-5a718cf2-6a19-4743-9831-2407b110bf13.png"></p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/67199007/178036270-f849ebc0-b3b4-4b0a-9cdd-2d8a4adf9e5b.png"></p>
