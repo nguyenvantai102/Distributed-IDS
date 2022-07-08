@@ -1,6 +1,8 @@
 <h1 align='center'>✨ONOS Controller✨ </h1>
 
 <h2 align="center">🛠 Install & Set up ONOS 🛠</h2>
+- Required: python 2
+
 - Install Java 8
 
 ```
