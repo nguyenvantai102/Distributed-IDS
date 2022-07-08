@@ -22,7 +22,7 @@ sudo adduser sdn -–system –group
 sudo passwd sdn
 ```
 
-** NOTE: Set password to "rocks". **
+**NOTE: Set password to "rocks".**
 
 - Install ONOS (version 1.12)
 
@@ -33,12 +33,12 @@ source tools/dev/bash_profile
 onos-buck build onos
 ```
 Edit .profile file:
+```
+vi ~/.profile
 
-`vi ~/.profile`
-**
 export ONOS_ROOT=~/onos
 source $ONOS_ROOT/tools/dev/bash_profile
-**
+```
 
 <h2 align="center">🔥 Launching ONOS 🔥</h2>
 - Terminal
@@ -50,11 +50,9 @@ onos-buck run onos-local
 - ONOS Browser
 
   **http://localhost:8181/onos/ui**
- 
   username: onos
- 
   passwork: rocks
 
 <h2 align="center">🌱 Result (with Mininet) 🌱</h2>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/67199007/178035825-5c02b63c-eb4f-45f7-a03f-fb6e0f20bd12.png"></p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/67199007/178036186-5a718cf2-6a19-4743-9831-2407b110bf13.png"></p>
